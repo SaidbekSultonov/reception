@@ -465,6 +465,11 @@
                         else if(data == 'success') {
                             $('#exampleModal').modal('toggle')
                         }
+                        else if(data == 'success2') {
+                            $('#exampleModal .p_1').text('Статус клиента изменен на «Пришёл в офис»')
+                            $('#exampleModal').modal('toggle')
+                        }
+
                     },
                 });    
             }
