@@ -1,9 +1,9 @@
 <?php  
 
-    $host = 'localhost';
-    $username = 'root';
-    $password = '';
-    $database = 'icstroy_db';
+    $host = '127.0.0.1';
+    $username = 'app_savravenue_user';
+    $password = 'q^v1Azw#c%flLgEP';
+    $database = 'app_savravenue_db';
 
     try {
         $conn = new PDO("mysql:host=$host;dbname=$database", $username, $password);
@@ -350,6 +350,9 @@
                             </option>                            
                         <?php endforeach ?>                        
                     <?php endif ?>
+                    <option value="80">
+                        Abduraxmanov Bekzod Ozod o`g`li
+                      </option>
                 </select>
                 <div>
                     <small class="d-none text-danger" id="error_managers">Обязательное поле для заполнения</small>
